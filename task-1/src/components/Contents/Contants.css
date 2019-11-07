@@ -1,0 +1,10 @@
+.carousel{
+    width: 78%;
+    float: right;
+}
+.carousel-slide{
+    height: 75%;
+}
+.carousel-inner{
+    height: 720px;
+}

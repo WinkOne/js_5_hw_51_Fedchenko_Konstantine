@@ -1,0 +1,41 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background: #ccc;
+    box-shadow: 3px 2px 22px -1px rgba(0,0,0,0.69);
+}
+.logo{
+    display: inline-block;
+    padding: 0 10px;
+}
+.logoName-Lo{
+    font-size: 38px;
+}
+.logoName-Go{
+    color: gold;
+}
+.logoName-Lo:hover{
+    color: gold;
+}
+.logoName-Go:hover{
+    color: black;
+}
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.listName{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    list-style: none;
+    padding: 20px;
+    font-weight: bold;
+}
+.list:hover{
+    color: gold;
+}

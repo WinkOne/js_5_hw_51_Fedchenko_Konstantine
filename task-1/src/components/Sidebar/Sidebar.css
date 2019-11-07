@@ -1,0 +1,78 @@
+.main-container {
+    display: flex;
+    min-height: 100%;
+}
+.sidebar{
+    box-shadow: 5px 2px 24px -4px rgba(0,0,0,0.69);
+
+}
+.header-sidebar h1{
+    margin: 0;
+    background: #fff;
+
+}
+.header-sidebar h1 img{
+    margin: 30px 91px 28px 91px;
+}
+.main-nav ul{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.main-nav a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 25px 0 0;
+}
+.main-nav li{
+    list-style: none;
+    line-height: 32px;
+    padding: 14px 0px 15px 0;
+    border-bottom: 1px solid #293034;
+    background: linear-gradient(180deg, rgba(9,9,9,1) 1%, rgba(0,0,0,1) 52%, rgba(9,9,9,1) 100%);
+}
+.main-nav li:hover{
+    background: linear-gradient(180deg, rgba(186,195,25,1) 1%, rgba(232,255,0,1) 52%, rgba(203,204,31,1) 100%);
+}
+.filter-title{
+    background: url(../Sidebar/img/filter-icon.png) 91% 0 no-repeat;
+    color: #1ab5b3;
+    font-size: 19px;
+    text-align: right;
+    padding-right: 52px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.filter-list ul{
+    margin: 0;
+    padding: 0;
+}
+.filter-list li{
+    list-style: none;
+    line-height: 23px;
+    text-align: right;
+}
+.filter-list label{
+    color: #6b7072;
+    font-size: 13px;
+    padding: 0 25px 0 0;
+}
+.filter-list input:checked + label{
+    color: #888888;
+    font-size: 14px;
+}
+.filter-list input[type="checkbox"]{
+    display: none;
+}
+.filter-list{
+    margin-bottom: 56px;
+}
+.footer-sidebars{
+    border-top: 1px solid #ccc;
+}
+.footer-sidebar p{
+    text-align: right;
+    padding: 0 25px 0 25px;
+}
