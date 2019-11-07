@@ -1,0 +1,13 @@
+.cards{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    min-width: 100px;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    max-width: 200px;
+    height: 300px;
+}
